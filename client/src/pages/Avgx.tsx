@@ -1,7 +1,8 @@
-import { ArrowLeft, ExternalLink, Box } from "lucide-react";
+import { ArrowLeft, ExternalLink, Box, TrendingUp, Presentation } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Badge } from "@/components/ui/badge";
 
 export default function Avgx() {
   return (
@@ -19,6 +20,10 @@ export default function Avgx() {
       >
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8 border-b border-border pb-8">
           <div>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">Pitched at Startup Mahakumbh 2025</Badge>
+              <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">VC Interest — Accel India (Exploratory)</Badge>
+            </div>
             <h1 className="font-display text-4xl md:text-5xl font-bold mb-4 text-primary">AVGX</h1>
             <p className="text-xl text-muted-foreground">Neutral, Globally Balanced Digital Currency</p>
           </div>
@@ -36,6 +41,34 @@ export default function Avgx() {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Global currencies face extreme volatility and fragmentation, creating friction in cross-border transactions. With over $10 trillion in daily transactional volume, the lack of a stable, neutral medium of exchange creates massive inefficiencies.
               </p>
+            </section>
+
+            <section>
+              <h2 className="font-display text-2xl font-bold mb-4 flex items-center gap-2">
+                <TrendingUp className="w-6 h-6 text-primary" /> Market Size & Long-Term Business Potential
+              </h2>
+              <div className="grid sm:grid-cols-2 gap-6 bg-secondary/20 rounded-xl p-6 border border-border/50">
+                <div>
+                  <h4 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-2">Relevant Markets</h4>
+                  <ul className="text-muted-foreground space-y-1">
+                    <li>• Global FX & cross-border payments</li>
+                    <li>• Digital currencies & crypto infrastructure</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-2">TAM (Category Level)</h4>
+                  <ul className="text-muted-foreground space-y-1">
+                    <li>• Global FX: $10T+ daily volume</li>
+                    <li>• Crypto assets: $2T+ market cap</li>
+                  </ul>
+                </div>
+                <div className="sm:col-span-2">
+                  <h4 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-2">Why AVGX Can Be Big</h4>
+                  <p className="text-muted-foreground">
+                    Neutral, globally balanced value layer. Potential infrastructure role rather than consumer-only product. Long-term monetization via transactions, integrations, and institutional adoption.
+                  </p>
+                </div>
+              </div>
             </section>
 
             <section>
@@ -76,6 +109,33 @@ export default function Avgx() {
             </section>
 
             <section>
+              <h2 className="font-display text-2xl font-bold mb-4 flex items-center gap-2">
+                <Presentation className="w-6 h-6 text-primary" /> Pitch Decks, Media & Visual Artifacts
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                These decks were used to communicate AVGX’s vision, market positioning, and execution roadmap to startup ecosystem stakeholders and investors.
+              </p>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {[
+                  "https://drive.google.com/file/d/15KrTDVmEIHVU0bousdoUGF1DGuElob-v/view",
+                  "https://drive.google.com/file/d/18KcEc-6SNZGYrequ4sng1vzFRdczF6K9/view",
+                  "https://drive.google.com/file/d/1Wc4SYnCn-UdlnGaZCSaa814apFwxeLP-/view",
+                  "https://drive.google.com/file/d/1exxW0UONqM8L8UMvcxA6C6AWYIp740SY/view"
+                ].map((link, i) => (
+                  <div key={i} className="group relative bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-colors">
+                    <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
+                      <Presentation className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
+                    </div>
+                    <h4 className="font-bold text-sm mb-2">AVGX Pitch Deck Part {i + 1}</h4>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary text-sm font-medium hover:underline">
+                      View Pitch Deck <ExternalLink className="ml-1 w-3 h-3" />
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section>
               <h2 className="font-display text-2xl font-bold mb-4">Learnings</h2>
               <p className="text-lg text-muted-foreground leading-relaxed italic border-l-4 border-primary pl-4">
                 "Designing for regulation is just as critical as designing for decentralization. The balance between compliance and crypto-native ethos is where the real product challenge lies."
@@ -104,9 +164,7 @@ export default function Avgx() {
               </dl>
             </div>
             
-            {/* Scenic stock image for fintech vibes */}
             <div className="rounded-xl overflow-hidden shadow-lg">
-              {/* fintech blockchain futuristic visualization */}
               <img 
                 src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&q=80" 
                 alt="Blockchain Technology" 
@@ -119,3 +177,4 @@ export default function Avgx() {
     </article>
   );
 }
+

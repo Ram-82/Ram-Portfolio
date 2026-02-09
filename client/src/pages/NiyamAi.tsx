@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink, BarChart2 } from "lucide-react";
+import { ArrowLeft, ExternalLink, BarChart2, TrendingUp, Presentation } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -39,6 +39,33 @@ export default function NiyamAi() {
             </section>
 
             <section>
+              <h2 className="font-display text-2xl font-bold mb-4 flex items-center gap-2">
+                <TrendingUp className="w-6 h-6 text-purple-600" /> Market Size & Long-Term Business Potential
+              </h2>
+              <div className="grid sm:grid-cols-2 gap-6 bg-secondary/20 rounded-xl p-6 border border-border/50">
+                <div>
+                  <h4 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-2">Relevant Markets</h4>
+                  <ul className="text-muted-foreground space-y-1">
+                    <li>• Indian compliance & accounting</li>
+                    <li>• B2B SaaS for SMBs</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-2">TAM</h4>
+                  <ul className="text-muted-foreground space-y-1">
+                    <li>• Indian ecosystem: $20–30B</li>
+                  </ul>
+                </div>
+                <div className="sm:col-span-2">
+                  <h4 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-2">Why It Can Scale</h4>
+                  <p className="text-muted-foreground">
+                    Recurring compliance needs drive predictable subscription revenue. High switching costs once integrated into CA workflows. Clear path to monetization via B2B SaaS model.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section>
               <h2 className="font-display text-2xl font-bold mb-4">Market Research</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I conducted direct user interviews with over 20 practicing CAs to understand their workflows. The feedback was unanimous: existing tools were either too generic or lacked the specific contextual understanding of Indian tax laws.
@@ -71,6 +98,26 @@ export default function NiyamAi() {
                 </ul>
               </div>
             </section>
+
+            <section>
+              <h2 className="font-display text-2xl font-bold mb-4 flex items-center gap-2">
+                <Presentation className="w-6 h-6 text-purple-600" /> Pitch Decks, Media & Visual Artifacts
+              </h2>
+              <p className="text-muted-foreground mb-6">
+                This document captures early problem research, product direction, and compliance workflows validated through discussions with Chartered Accountants.
+              </p>
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="group relative bg-card border border-border rounded-xl p-4 hover:border-purple-600/50 transition-colors">
+                  <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
+                    <Presentation className="w-8 h-8 text-muted-foreground group-hover:text-purple-600 transition-colors" />
+                  </div>
+                  <h4 className="font-bold text-sm mb-2">Niyam AI Concept Visuals</h4>
+                  <a href="https://drive.google.com/file/d/1x4ZFfszBKgR7pA_BaMWkuSGMSpJoqewf/view" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-purple-600 text-sm font-medium hover:underline">
+                    View Document <ExternalLink className="ml-1 w-3 h-3" />
+                  </a>
+                </div>
+              </div>
+            </section>
           </div>
 
           <aside className="space-y-8">
@@ -94,9 +141,7 @@ export default function NiyamAi() {
               </dl>
             </div>
 
-            {/* Scenic stock image for tech vibes */}
             <div className="rounded-xl overflow-hidden shadow-lg">
-              {/* code on screen matrix style */}
               <img 
                 src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80" 
                 alt="AI Technology" 
@@ -109,3 +154,4 @@ export default function NiyamAi() {
     </article>
   );
 }
+

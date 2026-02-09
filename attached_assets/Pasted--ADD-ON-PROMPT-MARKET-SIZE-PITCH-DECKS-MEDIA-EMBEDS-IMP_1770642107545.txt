@@ -1,0 +1,186 @@
+🔹 ADD-ON PROMPT: MARKET SIZE + PITCH DECKS + MEDIA EMBEDS
+
+IMPORTANT: You previously generated this portfolio but missed market sizing, venture potential, and external pitch decks.
+
+Update the portfolio website to include the following MANDATORY enhancements.
+
+🔹 GLOBAL RULE (NON-NEGOTIABLE)
+
+For each product page (AVGX, Ragam Elyssia, Niyam AI):
+
+Add a Market Size & Business Potential section
+
+Add a Pitch Deck & Media section with Google Drive embeds
+
+Ensure links are public, clickable, and previewable
+
+Treat pitch decks as investor-grade artifacts, not downloads buried at the bottom
+
+🔹 1. MARKET SIZE & BUSINESS POTENTIAL (ADD TO ALL PRODUCTS)
+Section Title
+
+Market Size & Long-Term Business Potential
+
+Instructions to AI
+
+Use TAM / SAM / SOM-style thinking
+
+Use category-level conservative estimates
+
+Avoid revenue exaggeration
+
+Position each product as venture-scale optionality, not guaranteed success
+
+AVGX — Market Size (ADD EXACTLY THIS STRUCTURE)
+
+Relevant Markets
+
+Global FX & cross-border payments
+
+Digital currencies & crypto infrastructure
+
+TAM (Category Level)
+
+Global FX market: multi-trillion dollar daily volume
+
+Crypto & digital assets: multi-trillion dollar market cap
+
+Why AVGX Can Be Big
+
+Neutral, globally balanced value layer
+
+Potential infrastructure role rather than consumer-only product
+
+Long-term monetization via transactions, integrations, and institutional adoption
+
+Ragam Elyssia — Market Size
+
+Relevant Markets
+
+Luxury events
+
+Premium concierge & experiential services
+
+TAM
+
+Global luxury & experiential services market: $1T+
+
+Why It Can Be Profitable
+
+High-margin services
+
+Relationship-driven repeat business
+
+Potential expansion into memberships, retainers, brand partnerships
+
+Niyam AI — Market Size
+
+Relevant Markets
+
+Indian compliance & accounting services
+
+B2B SaaS for SMBs
+
+TAM
+
+Indian compliance & accounting ecosystem: $20–30B
+
+Why It Can Scale
+
+Recurring compliance needs
+
+Subscription-based SaaS model
+
+High switching costs once adopted
+
+🔹 2. PITCH DECK & MEDIA SECTION (VERY IMPORTANT)
+Section Title
+
+Pitch Decks, Media & Visual Artifacts
+
+Instructions
+
+Embed Google Drive files using:
+
+iframe / preview embeds (if supported)
+
+Otherwise, large CTA buttons with preview thumbnails
+
+Clearly label each artifact
+
+Make them accessible without login
+
+AVGX — ADD THESE LINKS
+
+Pitch Decks & Visuals
+
+https://drive.google.com/file/d/15KrTDVmEIHVU0bousdoUGF1DGuElob-v/view
+
+https://drive.google.com/file/d/18KcEc-6SNZGYrequ4sng1vzFRdczF6K9/view
+
+https://drive.google.com/file/d/1Wc4SYnCn-UdlnGaZCSaa814apFwxeLP-/view
+
+https://drive.google.com/file/d/1exxW0UONqM8L8UMvcxA6C6AWYIp740SY/view
+
+Context Copy (Add this)
+
+These decks were used to communicate AVGX’s vision, market positioning, and execution roadmap to startup ecosystem stakeholders and investors.
+
+Ragam Elyssia — ADD THESE LINKS
+
+Pitch Decks & Brand Visuals
+
+https://drive.google.com/file/d/1kYKRZK5E-Ln17xdOYysJFCEL4zDIOIqA/view
+
+https://drive.google.com/file/d/1nXBH5Miks4Phbgpmtl95AUTmtoDXuOeO/view
+
+Context Copy
+
+These materials outline the brand positioning, service model, and partnership vision for Ragam Elyssia as a premium luxury experience platform.
+
+Niyam AI — ADD THIS LINK
+
+Concept & Product Visuals
+
+https://drive.google.com/file/d/1x4ZFfszBKgR7pA_BaMWkuSGMSpJoqewf/view
+
+Context Copy
+
+This document captures early problem research, product direction, and compliance workflows validated through discussions with Chartered Accountants.
+
+🔹 3. VISUAL PRESENTATION RULES
+
+Show preview thumbnails if possible
+
+Add “View Pitch Deck” CTAs
+
+Do NOT hide links in footers
+
+Place media after Results / Validation sections
+
+Maintain clean, professional spacing
+
+🔹 4. CREDIBILITY TAGS (ADD SMALL BADGES)
+
+For AVGX:
+
+“Pitched at Startup Mahakumbh 2025”
+
+“VC Interest — Accel India (Exploratory)”
+
+For Ragam Elyssia:
+
+“Industry Collaboration Interest — Meragi Events”
+
+🔹 FINAL INSTRUCTION (IMPORTANT)
+
+Re-generate the affected pages so that:
+
+Market size is explicitly visible
+
+Pitch decks are easily accessible
+
+The site feels credible to APM recruiters, founders, and investors
+
+Do NOT remove existing content.
+Only enhance and complete it.

@@ -1,0 +1,302 @@
+Act as a Senior Product Manager, startup founder, and VC analyst.
+
+Build a professional Product Manager / Associate Product Manager / Business Analyst portfolio website for me with multiple pages, optimized for:
+
+APM / PM / Product Analyst hiring managers
+
+Startup founders
+
+VC & accelerator reviewers
+
+The site must be outcome-driven, structured like PM case studies, and recruiter-skim friendly.
+
+🔹 GLOBAL SITE GOALS
+
+Position me as a product builder, not a coder
+
+Emphasize problem-solving, market thinking, execution, and learnings
+
+Highlight 3 shipped products
+
+Show venture-scale potential, not hobby projects
+
+Avoid buzzwords, fluff, or deep technical jargon
+
+🔹 SITE STRUCTURE (MANDATORY)
+Pages Required
+
+Homepage
+
+AVGX Product Page
+
+Ragam Elyssia Product Page
+
+Niyam AI Product Page
+
+About (Why Product Management)
+
+🔹 1. HOMEPAGE CONTENT
+Hero Section
+
+Headline
+
+Product Builder | 3 Products Shipped | Seeking APM Roles
+
+Subheadline
+
+I build products from idea to deployment by identifying real problems, coordinating cross-functional teams, and shipping under uncertainty.
+
+Quick Stats Section
+
+3 products launched
+
+Multiple domains: FinTech, Luxury Services, Compliance Tech
+
+Startup Mahakumbh 2025 Pitch
+
+Early VC & industry interest
+
+Featured Products Section (Cards)
+
+Each card should show:
+
+Product name
+
+One-line problem statement
+
+Status (Live / MVP / Prototype)
+
+“View Case Study” CTA
+
+Products:
+
+AVGX
+
+Ragam Elyssia
+
+Niyam AI
+
+🔹 2. AVGX PRODUCT PAGE
+
+Website: https://avgx.world/
+
+Problem Statement
+
+Explain clearly:
+
+Fragmented global currencies
+
+Volatility, geopolitical dependency, and lack of neutral digital value
+
+Why existing crypto/fiat systems don’t solve this fully
+
+Market Opportunity & Potential
+
+Addressable market: global payments + digital assets
+
+Comparable category market cap (crypto + FX + stablecoins)
+
+Long-term potential to become a multi-billion-dollar digital value layer
+
+Explain why this could evolve into a large, profitable financial infrastructure product
+
+Solution Overview
+
+Vision: a neutral, globally balanced digital currency
+
+Product focus: stability, fairness, decentralization
+
+MVP scope and roadmap thinking (not code-heavy)
+
+Execution & My Role
+
+Defined product vision & MVP scope
+
+Coordinated blockchain developers
+
+Translated business ideas into product requirements
+
+Managed iterations and testnet rollout
+
+Tech Stack (High-Level)
+
+Blockchain (testnet deployment)
+
+Smart contracts
+
+Web frontend
+
+Keep this high-level, no deep implementation details.
+
+Results & Validation
+
+Testnet successfully deployed
+
+Pitched at Startup Mahakumbh 2025
+
+Received interest from Accel India partner
+
+Validated investor curiosity and market relevance
+
+Key Learnings
+
+Designing for regulation vs decentralization
+
+Communicating complex financial products simply
+
+Early-stage validation without full funding
+
+🔹 3. RAGAM ELYSSIA PRODUCT PAGE
+
+Website: https://ragamelyssia.com/
+
+Problem Statement
+
+Luxury events & concierge services are fragmented and unstructured
+
+Clients struggle with trust, quality consistency, and premium experience delivery
+
+Market Opportunity & Potential
+
+Luxury events & experiential services market
+
+High-margin, relationship-driven business
+
+Potential to scale into a premium concierge & luxury brand ecosystem
+
+Solution Concept
+
+Structured luxury branding & concierge offering
+
+High-touch, curated experience model
+
+Productized luxury service approach
+
+Execution & My Role
+
+Defined brand, positioning, and service scope
+
+Built product narrative and digital presence
+
+Drove partnerships and outreach
+
+Results & Industry Validation
+
+Received collaboration offer from Meragi Events
+
+Validated demand from luxury service ecosystem
+
+Clear signal of market fit potential
+
+What Didn’t Work / What Changed
+
+Capital constraints
+
+Timing and execution bandwidth
+
+Learnings on service scalability
+
+Key Learnings
+
+Premium markets value trust over tech
+
+Brand positioning is a product
+
+Execution discipline matters more than ideas
+
+🔹 4. NIYAM AI PRODUCT PAGE
+
+Website: https://niyam-ai-beryl.vercel.app/
+
+Problem Statement
+
+Indian CA & compliance workflows are complex, manual, and fragmented
+
+SMBs and founders struggle with regulatory clarity
+
+Market Research
+
+Spoke with ~20 Chartered Accountants
+
+Identified:
+
+repetitive compliance pain points
+
+lack of unified intelligence tools
+
+high dependency on manual interpretation
+
+Proposed Solution
+
+AI-assisted compliance intelligence platform
+
+Simplified workflows for founders & CAs
+
+Focus on clarity, not automation overload
+
+Current Stage
+
+Concept + validation
+
+Problem–solution fit established
+
+Ready for MVP execution
+
+Market Potential
+
+India compliance & accounting ecosystem
+
+Large recurring SaaS opportunity
+
+Clear path to monetization via B2B subscriptions
+
+🔹 5. ABOUT PAGE — WHY PRODUCT MANAGEMENT
+My Story
+
+I’m a builder who starts with problems, not tools
+
+I naturally move toward:
+
+understanding users
+
+framing solutions
+
+aligning stakeholders
+
+shipping outcomes
+
+Why Product Management
+
+I enjoy deciding what to build and why
+
+I bridge business, tech, and user needs
+
+I thrive in ambiguity and early-stage chaos
+
+Career Objective
+
+Seeking Associate Product Manager roles where I can learn industry best practices while contributing meaningfully from day one.
+
+🔹 DESIGN & UX RULES
+
+Clean, professional, minimal
+
+PM-style storytelling
+
+Clear headings, scannable sections
+
+Strong CTAs
+
+No flashy animations
+
+🔹 DELIVERY REQUIREMENTS
+
+Generate all website copy
+
+Recommend page layout per section
+
+Optimize wording for PM/APM interviews
+
+Keep tone confident, factual, and grounded
+
+Assume the site will be live on a custom domain

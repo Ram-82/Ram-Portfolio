@@ -117,7 +117,7 @@ export default function RagamElyssia() {
                     <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
                       <Presentation className="w-8 h-8 text-muted-foreground group-hover:text-amber-600 transition-colors" />
                     </div>
-                    <h4 className="font-bold text-sm mb-2">Ragam Elyssia Asset {i + 1}</h4>
+                    <h4 className="font-bold text-sm mb-2">Image {i + 1}</h4>
                     <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-amber-600 text-sm font-medium hover:underline">
                       View Asset <ExternalLink className="ml-1 w-3 h-3" />
                     </a>

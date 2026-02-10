@@ -117,18 +117,18 @@ export default function Avgx() {
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
-                  "https://drive.google.com/file/d/15KrTDVmEIHVU0bousdoUGF1DGuElob-v/view",
-                  "https://drive.google.com/file/d/18KcEc-6SNZGYrequ4sng1vzFRdczF6K9/view",
-                  "https://drive.google.com/file/d/1Wc4SYnCn-UdlnGaZCSaa814apFwxeLP-/view",
-                  "https://drive.google.com/file/d/1exxW0UONqM8L8UMvcxA6C6AWYIp740SY/view"
-                ].map((link, i) => (
+                  { link: "https://drive.google.com/file/d/15KrTDVmEIHVU0bousdoUGF1DGuElob-v/view", name: "Image 1" },
+                  { link: "https://drive.google.com/file/d/18KcEc-6SNZGYrequ4sng1vzFRdczF6K9/view", name: "Image 2" },
+                  { link: "https://drive.google.com/file/d/1Wc4SYnCn-UdlnGaZCSaa814apFwxeLP-/view", name: "AVGX Pitch Deck" },
+                  { link: "https://drive.google.com/file/d/1exxW0UONqM8L8UMvcxA6C6AWYIp740SY/view", name: "Image 3" }
+                ].map((item, i) => (
                   <div key={i} className="group relative bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-colors">
                     <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
                       <Presentation className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
                     </div>
-                    <h4 className="font-bold text-sm mb-2">AVGX Pitch Deck Part {i + 1}</h4>
-                    <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary text-sm font-medium hover:underline">
-                      View Pitch Deck <ExternalLink className="ml-1 w-3 h-3" />
+                    <h4 className="font-bold text-sm mb-2">{item.name}</h4>
+                    <a href={item.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary text-sm font-medium hover:underline">
+                      View Asset <ExternalLink className="ml-1 w-3 h-3" />
                     </a>
                   </div>
                 ))}

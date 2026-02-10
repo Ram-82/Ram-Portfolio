@@ -111,9 +111,9 @@ export default function NiyamAi() {
                   <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
                     <Presentation className="w-8 h-8 text-muted-foreground group-hover:text-purple-600 transition-colors" />
                   </div>
-                  <h4 className="font-bold text-sm mb-2">Niyam AI Concept Visuals</h4>
+                  <h4 className="font-bold text-sm mb-2">Image</h4>
                   <a href="https://drive.google.com/file/d/1x4ZFfszBKgR7pA_BaMWkuSGMSpJoqewf/view" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-purple-600 text-sm font-medium hover:underline">
-                    View Document <ExternalLink className="ml-1 w-3 h-3" />
+                    View Asset <ExternalLink className="ml-1 w-3 h-3" />
                   </a>
                 </div>
               </div>

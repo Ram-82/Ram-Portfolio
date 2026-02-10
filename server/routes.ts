@@ -15,7 +15,8 @@ export async function registerRoutes(
       await storage.createMessage(input);
       res.json({ success: true });
     } catch (err) {
-       if (err instanceof z.ZodError) {
+      console.error("Message creation error:", err);
+      if (err instanceof z.ZodError) {
         res.status(400).json({ message: "Invalid input" });
       } else {
         res.status(500).json({ message: "Internal server error" });

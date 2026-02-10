@@ -120,7 +120,8 @@ export default function Avgx() {
                   { link: "https://drive.google.com/file/d/15KrTDVmEIHVU0bousdoUGF1DGuElob-v/view", name: "Image 1" },
                   { link: "https://drive.google.com/file/d/18KcEc-6SNZGYrequ4sng1vzFRdczF6K9/view", name: "Image 2" },
                   { link: "https://drive.google.com/file/d/1Wc4SYnCn-UdlnGaZCSaa814apFwxeLP-/view", name: "AVGX Pitch Deck" },
-                  { link: "https://drive.google.com/file/d/1exxW0UONqM8L8UMvcxA6C6AWYIp740SY/view", name: "Image 3" }
+                  { link: "https://drive.google.com/file/d/1exxW0UONqM8L8UMvcxA6C6AWYIp740SY/view", name: "Image 3" },
+                  { link: "https://drive.google.com/file/d/12UOW9TJ_DYt0W0-AvI3w8FlOTtdCsvc-/view?usp=sharing", name: "AVGX One Pager" }
                 ].map((item, i) => (
                   <div key={i} className="group relative bg-card border border-border rounded-xl p-4 hover:border-primary/50 transition-colors">
                     <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">

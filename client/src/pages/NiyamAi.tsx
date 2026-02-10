@@ -116,6 +116,15 @@ export default function NiyamAi() {
                     View Asset <ExternalLink className="ml-1 w-3 h-3" />
                   </a>
                 </div>
+                <div className="group relative bg-card border border-border rounded-xl p-4 hover:border-purple-600/50 transition-colors">
+                  <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
+                    <Presentation className="w-8 h-8 text-muted-foreground group-hover:text-purple-600 transition-colors" />
+                  </div>
+                  <h4 className="font-bold text-sm mb-2">Investor One Pager</h4>
+                  <a href="https://drive.google.com/file/d/1efyd3Jyu5YHnyvuXZ_KkBKxiiHXi24Wd/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-purple-600 text-sm font-medium hover:underline">
+                    View Asset <ExternalLink className="ml-1 w-3 h-3" />
+                  </a>
+                </div>
               </div>
             </section>
           </div>
